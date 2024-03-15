@@ -14,6 +14,11 @@
 		8428B9EB2BA1E12C00DB63AA /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428B9EA2BA1E12C00DB63AA /* AudioPlayerTests.swift */; };
 		8428B9F52BA1E12C00DB63AA /* AudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428B9F42BA1E12C00DB63AA /* AudioPlayerUITests.swift */; };
 		8428B9F72BA1E12C00DB63AA /* AudioPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428B9F62BA1E12C00DB63AA /* AudioPlayerUITestsLaunchTests.swift */; };
+		8428BA082BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8428BA072BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 */; };
+		8428BA092BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8428BA072BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 */; };
+		8428BA0A2BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8428BA072BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 */; };
+		8428BA0B2BA482AA00DB63AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428B9DB2BA1E12A00DB63AA /* ContentView.swift */; };
+		8428BA0C2BA482AB00DB63AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428B9DB2BA1E12A00DB63AA /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,7 @@
 		8428B9F02BA1E12C00DB63AA /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8428B9F42BA1E12C00DB63AA /* AudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITests.swift; sourceTree = "<group>"; };
 		8428B9F62BA1E12C00DB63AA /* AudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8428BA072BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "for-elise-background-music-for-video-dance-electro-house-version-179316.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		8428B9CD2BA1E12A00DB63AA = {
 			isa = PBXGroup;
 			children = (
+				8428BA072BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 */,
 				8428B9D82BA1E12A00DB63AA /* AudioPlayer */,
 				8428B9E92BA1E12C00DB63AA /* AudioPlayerTests */,
 				8428B9F32BA1E12C00DB63AA /* AudioPlayerUITests */,
@@ -232,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428B9E12BA1E12C00DB63AA /* Preview Assets.xcassets in Resources */,
+				8428BA082BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 in Resources */,
 				8428B9DE2BA1E12C00DB63AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8428BA092BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8428BA0A2BA481EF00DB63AA /* for-elise-background-music-for-video-dance-electro-house-version-179316.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8428BA0B2BA482AA00DB63AA /* ContentView.swift in Sources */,
 				8428B9EB2BA1E12C00DB63AA /* AudioPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +287,7 @@
 			files = (
 				8428B9F72BA1E12C00DB63AA /* AudioPlayerUITestsLaunchTests.swift in Sources */,
 				8428B9F52BA1E12C00DB63AA /* AudioPlayerUITests.swift in Sources */,
+				8428BA0C2BA482AB00DB63AA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

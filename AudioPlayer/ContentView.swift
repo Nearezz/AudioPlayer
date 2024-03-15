@@ -42,9 +42,32 @@ struct ContentView: View {
     }
     
     
-    func play() {}
+    func play() {
+        guard let fileURL = Bundle.main.url(forResource:"for-elise-background-music-for-video-dance-electro-house-version-179316", withExtension: "mp3") else {
+            print("Error finding audio file")
+            return
+        }
+        
+        do {
+            if audiPlayer == nil {
+                audiPlayer = try AVAudioPlayer(contentsOf: fileURL)
+            }
+            
+            audiPlayer?.currentTime = storedTime
+            audiPlayer?.play()
+            isPlaying = true
+            timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) {
+                timer in self.updateProgress()}
+            
+                 
+        } catch {
+            print("Error playing audio \(error)")
+        }
+    }
+    
     func pause() {}
     func stop() {}
+    func updateProgress(){}
     
 }
 
