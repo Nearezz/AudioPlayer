@@ -65,9 +65,28 @@ struct ContentView: View {
         }
     }
     
-    func pause() {}
-    func stop() {}
-    func updateProgress(){}
+    func pause() {
+        audiPlayer?.stop()
+        audiPlayer = nil
+        isPlaying = false
+        storedTime = audiPlayer?.currentTime ?? 0
+        timer?.invalidate()
+
+    }
+    func stop() {
+        audiPlayer?.stop()
+        audiPlayer = nil
+        isPlaying = false
+        storedTime = 0 
+        timer?.invalidate()
+
+
+    }
+    func updateProgress(){
+        guard let audiPlayer = audiPlayer else {return}
+        progress = audiPlayer.currentTime / audiPlayer.duration
+        print("update progress")
+    }
     
 }
 
